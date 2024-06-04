@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel = "clr-namespace:InblensaLTE.ViewModels"
+             x:DataType="viewmodel:LoginViewModel"
+             Shell.NavBarIsVisible="False"
+             x:Class="InblensaLTE.LoginPage"
+             Title="Iniciar Sesión">
+       
+       <ContentPage.Content>
+        <VerticalStackLayout VerticalOptions="Center"
+                             Margin="20,0,20,0"
+                             Spacing="20">
+            <Image Source="inblensa_logo"
+                   HorizontalOptions="Center"
+                   HeightRequest="250"
+                   WidthRequest="250"/>
+            <Label Text="Bienvenido"
+                   FontSize="Large"
+                   HorizontalOptions="Center"/>
+            <Label Text="Por favor ingrese su correo y clave"
+                   TextColor="LightSlateGrey"
+                   FontSize="Small"
+                   HorizontalOptions="Center"/>
+            <Entry x:Name="Username"
+                   Placeholder="Correo"
+                   PlaceholderColor="{AppThemeBinding Dark=#1d94ab}"
+                   Text="{Binding Username}"/>
+            <Entry x:Name="Password"
+                   Placeholder="Contraseña"
+                   IsPassword="True"
+                   PlaceholderColor="{AppThemeBinding Dark=#1d94ab}"
+                   Text="{Binding Password}"/>
+            <Button Text="Iniciar Sesión"
+                    HeightRequest="50"
+                    FontSize="Medium"
+                    BackgroundColor="#1d94ab"
+                    Command="{Binding LoginCommand}"/>
+            
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

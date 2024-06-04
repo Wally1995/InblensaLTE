@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InblensaLTE.Pages.InventoriesPage"
+             xmlns:viewmodel="clr-namespace:InblensaLTE.ViewModels"
+             x:DataType="viewmodel:InventoryViewModel"
+             xmlns:model="clr-namespace:InblensaLTE.Models"
+             Title="Inventarios">
+    <ContentPage.Content>
+        
+        <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding GetInvetoriesCommand}">
+            <ScrollView>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <VerticalStackLayout>
+                        <Button Command="{Binding NavigateCommand }" Text="Regresar"></Button>
+                    </VerticalStackLayout> 
+                    <CollectionView Grid.Row="1" ItemsSource="{Binding Inventories}">
+                    
+                        <CollectionView.ItemTemplate>
+                        
+                            <DataTemplate x:DataType="model:Inventory">
+                                <Grid Padding="10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                       
+                                    <HorizontalStackLayout Grid.Column="0">
+                                        <Label Text="ID:" FontAttributes="Bold"/>
+                                        <Label Text="{Binding Id}"/>
+                                    </HorizontalStackLayout>
+                                    <!-- <HorizontalStackLayout Grid.Column="1" Padding="0,0,10,0"> -->
+                                    <!--     <Label Text="Description:" FontAttributes="Bold"/> -->
+                                    <!--     <Label Text="{Binding Descr}"/> -->
+                                    <!-- </HorizontalStackLayout> -->
+                                    <!-- <StackLayout Grid.Column="2"> -->
+                                    <!--     <Label Text="Exist:" FontAttributes="Bold"/> -->
+                                    <!--     <Label Text="{Binding Exist}"/> -->
+                                    <!--     <Label Text="Cost:" FontAttributes="Bold"/> -->
+                                    <!--     <Label Text="{Binding Cost, StringFormat='{0:C}'}"/> -->
+                                    <!-- </StackLayout> -->
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+               
+                
+            </ScrollView>
+        </RefreshView>
+    </ContentPage.Content>
+</ContentPage>

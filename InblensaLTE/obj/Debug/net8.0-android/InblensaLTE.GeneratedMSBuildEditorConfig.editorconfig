@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InblensaLTE
+build_property.ProjectDir = /Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/Controls/FlyOutHeader.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.Controls.FlyOutHeader.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls/FlyOutHeader.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls/FlyOutHeader.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/LoadingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.LoadingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoadingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoadingPage.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/Pages/CustomersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.Pages.CustomersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/CustomersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/CustomersPage.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/Pages/InventoriesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.Pages.InventoriesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/InventoriesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/InventoriesPage.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/walterblandon/RiderProjects/InblensaLTE/InblensaLTE/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InblensaLTE.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
